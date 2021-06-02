@@ -1,9 +1,5 @@
 $(function(){
 
-    $('#header-include').load('https://come-back-1.github.io/TheRavens/header.html')
-    
-    $('#footer-include').load('https://come-back-1.github.io/TheRavens/fsooter.html')
-
     $(window).scroll(function(){
         if ($(this).scrollTop() > 50) {
             $('.navbar').addClass('solid bg-dark');    
