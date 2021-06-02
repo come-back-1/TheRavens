@@ -1,8 +1,8 @@
 $(function(){
 
-    $('#header-include').load('https://come-back-1.github.io/header.html')
+    $('#header-include').load('https://come-back-1.github.io/TheRavens/header.html')
     
-    $('#header-include').load(' https://come-back-1.github.io/footer.html')
+    $('#footer-include').load('https://come-back-1.github.io/TheRavens/fsooter.html')
 
     $(window).scroll(function(){
         if ($(this).scrollTop() > 50) {
